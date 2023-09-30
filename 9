@@ -1,0 +1,12 @@
+function ispalindrome(a){
+
+ let text=a.toString()
+ let q=text.length
+for(let i=0;i<q/2;i++){
+    if(text[i]!==text[q-1-i]){
+        return false;
+    }
+}
+return true;
+}
+console.log(ispalindrome(123211));
