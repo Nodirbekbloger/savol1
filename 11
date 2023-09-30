@@ -1,0 +1,3 @@
+var array=['salim','olim','karim','ali']
+var Array1=array.reverse()
+console.log(Array1);
